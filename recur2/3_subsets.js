@@ -11,3 +11,14 @@
 // Input : set = “abcd”
 
 // Output : { “”, “a” ,”ab” ,”abc” ,”abcd”, “abd” ,”ac” ,”acd”, “ad” ,”b”, “bc” ,”bcd” ,”bd” ,”c” ,”cd” ,”d” }
+
+function sub(nums) {
+  let result = [];
+  result.push([]);
+
+  for (let i = 0; i < nums.length; i++) {
+    let current = nums[i];
+    let len = result.length;
+  }
+}
+// got stuck

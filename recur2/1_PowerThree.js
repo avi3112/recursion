@@ -2,8 +2,6 @@
 
 // An integer n is a power of three, if there exists an integer x such that n == 3x.
 
- 
-
 // Example 1:
 
 // Input: n = 27
@@ -11,18 +9,29 @@
 // Explanation: 27 = 33
 
 
-function powerthree(n) {
-    let squre=1
-    let result=0
-    while(squre*squre*squre <= n){
-        result=squre
-        squre++
-
+function powthree(n) {
+    if (n < 1) return false
+    for(let i = 0; i <= n; i++) {
+        let num = Math.pow(3, i)
+        if (num === n) return true
+        if (num > n) return false
     }
-    return result
-
-    
 };
 
-const result= powerthree(27)
-console.log(result)
+
+const result1 = powthree(27);
+console.log(result1);
+
+// function powerthree(n) {
+//   if (n === 0) return false;
+//   if (n === 1) return true;
+
+//   if (n % 3 !== 1) {
+//     powerthree(n / 3);
+//   } else {
+//     return false;
+//   }
+// }
+
+// const result = powerthree(27);
+// console.log(result);

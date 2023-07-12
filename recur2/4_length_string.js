@@ -8,3 +8,11 @@
 
 // Input : str = "GEEKSFORGEEKS"
 // Output :13
+
+
+function strlength(str){
+    return str.length
+}
+
+const result= strlength("GEEKSFORGEEKS")
+console.log(result)

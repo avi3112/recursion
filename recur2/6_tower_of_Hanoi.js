@@ -10,3 +10,5 @@
 // Explanation:For N=2 , steps will be
 // as follows in the example and total
 // 3 steps will be taken.
+
+// little hard

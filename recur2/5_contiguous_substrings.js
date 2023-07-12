@@ -12,3 +12,5 @@
 // Input  : S = "aba"
 // Output : 4
 // The substrings are a, b, a and aba
+
+// little hardd to understand
